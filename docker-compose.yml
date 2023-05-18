@@ -24,4 +24,4 @@ services:
       - "/srv/wordpress/themes:/var/www/html/wp-content/themes"
       - "/srv/wordpress/uploads:/var/www/html/wp-content/uploads"
     ports:
-      - "[::1]:8000:80"
+      - "80:80"
